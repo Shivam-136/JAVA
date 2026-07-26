@@ -4,9 +4,8 @@ public class RemoveSpaces{
 
         return str.replace(" ", "");
     }
-
     public static void main(String[] args) {
 
-        System.out.println(removeSpaces("Java    Programming"));
+        System.out.println(removeSpaces("Java Programming"));
     }
 }
