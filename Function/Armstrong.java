@@ -9,10 +9,8 @@ public class Armstrong {
             sum += digit * digit * digit;
             temp /= 10;
         }
-
         return sum == num;
     }
-
     public static void main(String[] args) {
         System.out.println(isArmstrong(153));
     }
