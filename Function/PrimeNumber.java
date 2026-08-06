@@ -11,7 +11,6 @@ public class PrimeNumber {
         }
         return true;
     }
-
     public static void main(String[] args) {
 
         if (isPrime(13))
